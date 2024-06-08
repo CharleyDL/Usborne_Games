@@ -39,8 +39,7 @@ from terminaltexteffects.effects.effect_expand import Expand
 from terminaltexteffects.effects.effect_middleout import MiddleOut
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 
-                                             '..', 
-                                             '..')))
+                                             '..', '..')))
 import utils.functions as fct
 
 

@@ -29,18 +29,45 @@
 """
 # ==============================================================================
 
-import subprocess
 import time
 
+import utils.functions as fct
 
+from os import system
 from terminaltexteffects.effects.effect_blackhole import Blackhole
 
-with open("./asset/app_header.txt", "r") as f:
-    effect = Blackhole(f.read())
-    with effect.terminal_output() as out:
-        for frame in effect:
-            out.print(frame)
 
-time.sleep(2)
+def animated_header() -> None:
+    system("clear")
 
-print("HEHE WELCOME TO THE 80'S GAMES!")
+    with open("./asset/app_header.txt", "r") as f:
+        effect = Blackhole(f.read())
+        with effect.terminal_output() as out:
+            for frame in effect:
+                out.print(frame)
+    time.sleep(1)
+
+def static_header() -> None:
+    system("clear")
+
+    with open("./asset/app_header.txt", "r") as f:
+        print(f.read())
+
+
+
+if __name__ == "__main__":
+    animated_header()
+
+    static_header()
+    print(
+    """
+    1. Select a Game
+    2. Language (Not available yet)
+    """
+    )
+
+    choice_menu = fct.get_menu_action()
+    if choice_menu == "1":
+        print("HEHE WELCOME TO THE 80'S GAMES!")
+    else:
+        print("Language is not available yet.")
