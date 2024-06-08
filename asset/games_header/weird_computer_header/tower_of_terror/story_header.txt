@@ -1,0 +1,24 @@
+ + ------------------------------------------------------------------------ + 
+ |                                                                          |
+ |   ████████████████████████████████████████████████████████████████████   |
+ |   ██                                                                ██   |
+ |   ██   Your mouth is dry, your legs are shaking, and your heart     ██   |
+ |   ██   is thumping...                                               ██   |
+ |   ██                                                                ██   |
+ |   ██   You've entered the Tower of Terror....                       ██   |
+ |   ██                                                                ██   |
+ |   ██   Agh!! There's a skeleton, then a ghost, then a headless      ██   |
+ |   ██   axeman! With each fresh shock, your pulse rate rockets.      ██   |
+ |   ██                                                                ██   |
+ |   ██   Will you go on (G) or retreat (R) to recover a little?       ██   |
+ |   ██   Watch the time, you've only got until midnight to reach      ██   |
+ |   ██   the top of the Tower and the coveted Treasure. Watch your    ██   |
+ |   ██   pulse rate too. Madness takes over when it reaches 150 and   ██   |
+ |   ██   nothing can stop you from leaping to your doom out of the    ██   |
+ |   ██   window.                                                      ██   |
+ |   ██                                                                ██   |
+ |   ████████████████████████████████████████████████████████████████████   |
+ |                                                                          |
+ + ------------------------------------------------------------------------ +
+
+ QUIT (Q)                                                        CONTINUE (C)
